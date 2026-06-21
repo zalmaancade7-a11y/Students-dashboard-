@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Students - Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <aside class="sidebar">
+      <h2>Dashboard</h2>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="students.html" class="nav-item active">Students</a>
+        <a href="settings.html" class="nav-item">Settings</a>
+        <a href="logout.html" class="nav-item">Logout</a>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <div class="dashboard-header">
+        <h1>Student Information Dashboard</h1>
+      </div>
+      <div class="table-container">
+        <table class="student-table">
+          <thead>
+            <tr>
+              <th>Photo</th>
+              <th>Name</th>
+              <th>ID</th>
+              <th>Location</th>
+              <th>Status</th>
+              <th>Gender</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="https://via.placeholder.com/50" class="student-photo"></td>
+              <td class="text-left">Ahmed Ali</td>
+              <td>C1240001</td>
+              <td>Hodan</td>
+              <td>Single</td>
+              <td>Male</td>
+              <td><button class="btn btn-edit">Edit</button></td>
+              <td><button class="btn btn-delete">Delete</button></td>
+            </tr>
+            <tr>
+              <td><img src="https://via.placeholder.com/50" class="student-photo"></td>
+              <td class="text-left">Layla Noor</td>
+              <td>C1240002</td>
+              <td>Kaxda</td>
+              <td>Married</td>
+              <td>Female</td>
+              <td><button class="btn btn-edit">Edit</button></td>
+              <td><button class="btn btn-delete">Delete</button></td>
+            </tr>
+            <tr>
+              <td><img src="https://via.placeholder.com/50" class="student-photo"></td>
+              <td class="text-left">Sami Yusuf</td>
+              <td>C1240003</td>
+              <td>Wadajir</td>
+              <td>Single</td>
+              <td>Male</td>
+              <td><button class="btn btn-edit">Edit</button></td>
+              <td><button class="btn btn-delete">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
